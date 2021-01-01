@@ -6,7 +6,7 @@ PrimeGeneratorTest.java verifies PrimeGenerator's methods using JUnit.<br />
 
 ---- Compile & Run ----<br />
 
-**_cd_** to **_/PrimeGenerator_** and type **_ant -f build.xml_**.<br />
+Clone the repo, **_cd_** to **_/PrimeGenerator_** and type **_ant -f build.xml_**.<br />
 
 ---- Prerequisite Steps & Environment Setup ----<br />
 
