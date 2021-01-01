@@ -43,7 +43,7 @@ public class PrimeGenerator {
 	}
 	
 	public static void main(String[] args) {
-		PrimeGenerator gen = new PrimeGenerator(1, 100);
+		PrimeGenerator gen = new PrimeGenerator(2, 101);
 		gen.generatePrimes();
 		LinkedList<Long> primes = gen.getPrimes();
 		Iterator<Long> it = primes.iterator();

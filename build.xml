@@ -56,8 +56,16 @@
 
 	<target name="clean" depends="run">
 		<delete includeemptydirs="true">
+			<fileset dir="${bin}/edu/umb/cs680/hw01" includes="**/*"/>
+			<fileset dir="${test.bin}/edu/umb/cs680/hw01" includes="**/*" />
+		</delete>
+	</target>
+
+	<target name="reset">
+		<delete includeemptydirs="true">
 			<fileset dir="${bin}"/>
 			<fileset dir="${test.bin}"/>
+			<fileset dir="${test.reports}"/>
 		</delete>
 	</target>
 
