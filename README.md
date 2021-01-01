@@ -1,4 +1,4 @@
-# Calculator
+# PrimeGenerator
 ---- Program Description ----<br />
 
 PrimeGenerator.java generates a list of all primes within a range of two integers, inclusive.<br />
