@@ -2,7 +2,7 @@
 ---- Program Description ----<br />
 
 PrimeGenerator.java generates a list of all primes within a range of two integers, inclusive.<br />
-CalculatorTest.java verifies PrimeGenerator's methods using JUnit.<br />
+PrimeGeneratorTest.java verifies PrimeGenerator's methods using JUnit.<br />
 
 ---- Compile & Run ----<br />
 
